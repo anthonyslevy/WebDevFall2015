@@ -1,0 +1,31 @@
+.container {
+	width: 85%;
+	min-width: 960px;
+	margin: 50px auto;
+	padding: 5px;
+}
+
+h1 {
+  color: grey;
+}
+
+h2 {
+  color: orange;
+}
+
+button {
+  color: green;
+  font-color: white;
+  font-family: sans-serif;
+
+}
+
+blockquote {
+  margin: 1.5em 10px;
+}
+
+blockquote:before {
+  color: white
+  content: open-quote;
+  font-size; 4em;
+}
