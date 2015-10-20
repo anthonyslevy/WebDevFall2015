@@ -1,31 +1,36 @@
-.container {
-	width: 85%;
-	min-width: 960px;
-	margin: 50px auto;
-	padding: 5px;
+body {
+	background: #eee;
 }
 
-h1 {
-  color: grey;
+h4 {
+  font-size: 4em;
+  font-family: serif;
 }
 
-h2 {
-  color: orange;
+#header {
+height: auto;
+width: auto;
 }
 
-button {
-  color: green;
-  font-color: white;
-  font-family: sans-serif;
+#content-section {
 
 }
 
-blockquote {
-  margin: 1.5em 10px;
+#feature-section {
+
 }
 
-blockquote:before {
-  color: white
-  content: open-quote;
-  font-size; 4em;
+#footer {
+	background: #333;
+	color: #fff; /* font color */
+	min-height: 100px;
+}
+
+/* Override bootstrap */
+.row div[class^="col"] {
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+	background: #ccc;
+	border: 1px solid #999;
 }

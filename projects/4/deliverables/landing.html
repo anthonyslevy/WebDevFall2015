@@ -1,47 +1,161 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <title>Dank Meow | Premium Catnip from Boulder, Colorado</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
-    <link rel="stylesheet" type="text/css" href="assets/css/style_bootstrap.css">
-  </head>
-  <body>
-
-    <!-- Image -->
-  <div class="container">
-  <div class="row">
-  <img src="https://cdn-shop.threadless.com/products/1354/636x460design_01.jpg" alt="Dank-Meow-Lazer-Beams" />
-    <!-- Header -->
-    <div class="column">
-      <!-- Title -->
-      <h1>Millions of small business professionals rely on GoToMeeting.</h1>
-      </div>
-    </div>
-      <!-- Subtitle -->
-      <h2>Start your free trial today, or see it in action!</h2>
-    </div>
-  <!-- Container 2  -->
-  <div class="column">
-    <form class="" action="index.html" method="post">
-      <input type="tf" name="email address" placeholder="EMAIL">
-      <input type="Button" name="Submit" value"Click me" onclick"msg(We will be in touch)">
-    </form>
-  </div>
-    <p>
-      Free 30-Day Trial - One-Click Meetings
-    </p>
-    <col>
-    <blockquote cite="https://google.com" >
-      The people who have never seen such a thing before are amazed
-    </blockquote>
-    </col>
-    </div>
+<head>
+	<title>Project 3: Landing Page - Dank Meow [Bootstrapped]</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/style_bootstrap.css">
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js" integrity="sha256-Sk3nkD6mLTMOF0EOpNtsIry+s1CsaqQC1rVLTAy+0yc= sha512-K1qjQ+NcF2TYO/eI3M6v8EiNYZfA95pQumfvcVrTHtwQVDG+aHRqLi/ETn2uB+1JqwYqVG3LIvdm9lj6imS/pQ==" crossorigin="anonymous"></script>
+</head>
+<body>
 
 
+<div class="container-fluid">
+
+	<!-- Header Image -->
+	<div id="header" class="row">
+		<img class="img-responsive" src="http://33.media.tumblr.com/f25efa440795419042368abb3ea82916/tumblr_mmx6le8wVo1sp8db7o1_500.gif" style="width:100%;">
+	</div>
+	<!--
+		Bootstrap grid system:
+		classes:
+		    xs (phones)
+			sm (tablets)
+			md (desktops)
+			lg (larger desktops)
+	 -->
+
+	<div id="content-section" class="row">
+		<div class="col-md-8 col-sm-7 col-xs-12">
+			<h4>Dank Meow</h4>
+
+			<!-- Image -->
+			<!-- Paragraph -->
+      <p>
+        PREMIUM CATNIP. DankMeow catnip is naturally grown in Colorado and safe for cats to consume. In fact, it's some of the finest catnip on the market - see why ...
+      </p>
+		</div>
+
+		<div class="col-md-4 col-sm-5 col-xs-12">
+			<h4>Form</h4>
+			<!-- Form -->
+      <form class="cta" action="index.html" method="post">
+        <input type="tf" name="firstName" placeholder="First name">
+        <input type="tf" name="lastName" placeholder="Last name">
+        <br>
+        <label> Date of Birth </label>
+        <format>month/day/year</format>
+        <br>
+        <select name="month">
+          <option value="January">January</option>
+          <option value="February">February</option>
+          <option value="March">March</option>
+          <option value="April">April</option>
+          <option value="May">May</option>
+          <option value="June">June</option>
+          <option value="July">July</option>
+          <option value="August">August</option>
+          <option value="September">September</option>
+          <option value="October">Ocotber</option>
+          <option value="November">November</option>
+          <option value="December">December</option>
+        </select>
+
+        <select name="day">
+          <option value="1">1</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5</option>
+          <option value="6">6</option>
+          <option value="7">7</option>
+          <option value="8">8</option>
+          <option value="9">9</option>
+          <option value="10">10</option>
+          <option value="11">11</option>
+          <option value="12">12</option>
+          <option value="13">13</option>
+          <option value="14">14</option>
+          <option value="15">15</option>
+          <option value="16">16</option>
+          <option value="17">17</option>
+          <option value="18">18</option>
+          <option value="19">19</option>
+          <option value="20">20</option>
+          <option value="21">21</option>
+          <option value="22">22</option>
+          <option value="23">23</option>
+          <option value="24">24</option>
+          <option value="25">25</option>
+          <option value="26">26</option>
+          <option value="27">27</option>
+          <option value="28">28</option>
+          <option value="29">29</option>
+          <option value="30">30</option>
+          <option value="31">31</option>
+        </select>
+
+        <select name="year">
+          <option value="1994">1994</option>
+          <option value="1995">1995</option>
+        </select>
+
+        <input type="tf" name="email address" placeholder="Email address">
 
 
+				<label>Are you aware that this is not actually weed?</label>
+				<input type="radio" name="Yes" value="yes">
+				<input type="radio" name="No" value="no">
 
-  </body>
+				<input type="button" name="submitBtn" value="Submit">
+
+      </form>
+		</div>
+	</div>
+
+
+	<div id="feature-section" class="row">
+		<div class="col-md-4 col-sm-4 col-xs-12">
+			<h4>Feature 1</h4>
+		</div>
+
+		<div class="col-md-4 col-sm-4 col-xs-12">
+			<h4>Feature 2</h4>
+		</div>
+
+		<div class="col-md-4 col-sm-4 col-xs-12">
+			<h4>Feature 3</h4>
+		</div>
+	</div>
+
+	<div id="footer" class="row">
+		<h4>Footer</h4>
+	</div>
+
+</div>
+
+<script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+
+<script type="text/javascript">
+$(function(){
+
+	var minYear = new Date().getFullYear() - 18,
+			day = $('select[name="day"]'),
+			year = $('select[name="year"]');
+
+	for(var i = 1; i <= 31; i++){
+		day.append( $("<option></option>").attr("value", i).text(i) );
+	};
+
+	for( ; minYear >= 1920; minYear--){
+		year.append( $("<option></option>").attr("value", minYear).text(minYear) );
+	};
+
+});
+</script>
+</body>
+</html>
+
+
+</body>
 </html>
