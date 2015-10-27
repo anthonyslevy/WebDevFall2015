@@ -1,29 +1,26 @@
-body {
-	background: #eee;
-}
-
-h4 {
-  font-size: 4em;
-  font-family: serif;
-}
-
 #header {
 height: auto;
 width: auto;
+font-weight: bolder;
+font-family: fantasy;
+background-color: #1abc9c;
 }
 
 #content-section {
-
+	background: #2ecc71;
+	color: #ecf0f1;
 }
 
 #feature-section {
-
+background: #1abc9c;
+color: #ecf0f1
 }
 
 #footer {
-	background: #333;
-	color: #fff; /* font color */
+	background: #1abc9c;
+	color: #7f8c8d; /* font color */
 	min-height: 100px;
+	font-weight:
 }
 
 /* Override bootstrap */
@@ -31,6 +28,5 @@ width: auto;
     box-sizing: border-box;
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
-	background: #ccc;
 	border: 1px solid #999;
 }
